@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(R.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(6, 139, 99);
+    margin-top: 3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: aqua;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 80px;
+    color: rgb(95, 10, 84);
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(199, 11, 11);
+}
+.info a{
+    text-decoration: none;
+    color: black;
+    background: rgb(41, 158, 18);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: rgb(170, 8, 108);
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: rgb(7, 52, 148);
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: blue;
+}
+
